@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Kasa",
+    "imageSrc": "/images/Kasa.jpg",
+    "description": "Kasa est dans le métier de la location d’appartements entre particuliers réalisé avec React",
+    "githubLink": "https://github.com/YacineNamane/Kasa"
+  },
+  {
+    "id": 2,
+    "title": "Kasa",
+    "imageSrc": "../images/Kasa.jpg",
+    "description": "Description de l'autre projet",
+    "githubLink": "https://github.com/votre-utilisateur/autre-projet"
+  },
+  {
+    "id": 2,
+    "title": "Kasa",
+    "imageSrc": "../images/Kasa.jpg",
+    "description": "Description de l'autre projet",
+    "githubLink": "https://github.com/votre-utilisateur/autre-projet"
+  }
+]

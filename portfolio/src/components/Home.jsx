@@ -5,7 +5,7 @@ function Home() {
   return (
     <div className="home-section" id="Home">
       <div className="text-en-boucle">
-        <div style={{ fontSize: 30, padding: 50, textAlign: "left" }}>
+        <div className="type-container">
           <Type />
         </div>
       </div>

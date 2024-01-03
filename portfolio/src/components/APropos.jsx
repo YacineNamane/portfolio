@@ -5,7 +5,10 @@ function APropos() {
   return (
     <div className="apropos-section" id="Apropos">
       <div>
-        <h2> A propos </h2>
+        <h2>
+          {" "}
+          A propos | <span>de moi</span>{" "}
+        </h2>
       </div>
       <div>
         <p>

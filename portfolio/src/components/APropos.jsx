@@ -7,14 +7,14 @@ function APropos() {
       <div>
         <h2>
           {" "}
-          A propos | <span>de moi</span>{" "}
+          A | <span>Propos</span>{" "}
         </h2>
       </div>
       <div>
         <p>
           Passionné par le développement web <br /> particulièrement font-end
-          web design <br />
-          Autodidacte a 26 ans. Passionné par le développement web <br />{" "}
+          <br />
+          <br />{" "}
         </p>
       </div>
       <div>
@@ -24,8 +24,10 @@ function APropos() {
           Vous pouvez si vous le souhiater télécharger mon CV au format PDF ,
           pour en savoir plus sur moi{" "}
           <a
-            href="file:///C:/Users/Yacin/OneDrive/Desktop/theon,e/M1%20transfert%20PDF/CURRICULUM%20VITAE%202022.pdf"
-            download
+            href="https://github.com/YacineNamane/portfolio/raw/master/portfolio/src/images/CURRICULUM%20VITAE%202022.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            download="Yacine-Namane-CV-Dev-Web.pdf"
           >
             ici.
           </a>

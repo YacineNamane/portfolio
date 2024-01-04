@@ -308,9 +308,9 @@ footer {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 100px;
+  gap: 60px;
   height: 900px;
-  width: auto;
+  width: 100%;
 }
 
 .project-section {
@@ -409,7 +409,7 @@ footer {
   height: 100px;
   width: 15%;
   margin: 20px;
-  transition: all 0.5s ease 0s !important;
+  transition: all 0.2s ease 0s !important;
   border-width: 3px; /* Largeur de la bordure */
   border-style: solid;
   border-image: linear-gradient(

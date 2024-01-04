@@ -3,7 +3,6 @@ import { Container, Col } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import projectsData from "../projects.json";
-import KasaImg from "../images/Logo.png";
 
 function Projects() {
   return (
@@ -19,7 +18,7 @@ function Projects() {
         {projectsData.map((project) => (
           <Col key={project.id} className="project-section hover">
             <div>
-              <img src={KasaImg} alt={`Website ${project.title}`} />
+              <img src={project.imageSrc} alt={`Website ${project.title}`} />
             </div>
             <div>
               <p>{project.description}</p>

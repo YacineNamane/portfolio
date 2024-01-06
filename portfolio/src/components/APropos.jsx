@@ -10,28 +10,39 @@ function APropos() {
           A | <span>Propos</span>{" "}
         </h2>
       </div>
-      <div>
-        <p>
-          Passionné par le développement web <br /> particulièrement font-end
-          <br />
-          <br />{" "}
-        </p>
+      <div className="apropos-p">
+        <div>
+          <p>
+            Après des études en génie électrique, j'ai fait une reconversion
+            professionnelle Dans le développement Web.{" "}
+          </p>
+        </div>
+        <div>
+          <p>
+            Après une formation diplômante dans le domaine et beaucoup
+            d'apprentissage en autodidacte , je suis disponible pour des
+            missions en tant que développeur Web junior
+          </p>
+        </div>
+        <div>
+          <p>
+            N'hésitez pas à explorer mes projets déjà réalisés
+            <a href="#projects"> ici.</a> <br />
+            Vous pouvez si vous le souhaitez télécharger mon CV en format PDF ,
+            pour en savoir plus sur moi{" "}
+            <a
+              href="https://github.com/YacineNamane/portfolio/raw/master/portfolio/src/images/CURRICULUM%20VITAE%202022.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              download="Yacine-Namane-CV-Dev-Web.pdf"
+            >
+              ici.
+            </a>
+          </p>
+        </div>
       </div>
+
       <div>
-        <p>
-          N'hésitez pas à explorer mes projets déjà réaliser
-          <a href="#projects"> ici.</a> <br />
-          Vous pouvez si vous le souhiater télécharger mon CV au format PDF ,
-          pour en savoir plus sur moi{" "}
-          <a
-            href="https://github.com/YacineNamane/portfolio/raw/master/portfolio/src/images/CURRICULUM%20VITAE%202022.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            download="Yacine-Namane-CV-Dev-Web.pdf"
-          >
-            ici.
-          </a>
-        </p>
         <div className="apropos-socials">
           <a
             href="https://github.com/YacineNamane"

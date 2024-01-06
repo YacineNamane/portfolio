@@ -8,6 +8,9 @@ import postman from "../images/postman.png";
 import chatgpt from "../images/chatgpt.png";
 import mongoDB from "../images/mongodb.png";
 import lighthose from "../images/lighthouse.png";
+import git from "../images/git.png";
+import github from "../images/github.png";
+import vsc from "../images/vsc.png";
 
 function Compétences() {
   return (
@@ -48,18 +51,36 @@ function Compétences() {
         </div>
         <div className="div-skill">
           {" "}
+          <img src={git} alt="" />
+        </div>
+      </div>
+      <div className="skills-section">
+        <h2>
+          Outils | <span> Utilisés </span>
+        </h2>
+      </div>
+      <div className="compétence-section">
+        <div className="div-skill">
+          {" "}
+          <img src={github} alt="" />
+        </div>
+        <div className="div-skill">
+          {" "}
+          <img src={chatgpt} alt="" />
+        </div>
+        <div className="div-skill">
+          {" "}
+          <img src={vsc} alt="" />
+        </div>
+        <div className="div-skill">
+          {" "}
           <img src={postman} alt="" />
         </div>
         <div className="div-skill">
           {" "}
           <img src={lighthose} alt="" />
         </div>
-        <div className="div-skill">
-          {" "}
-          <img src={chatgpt} alt="" />
-        </div>
       </div>
-      <div className="compétence section"></div>
     </div>
   );
 }

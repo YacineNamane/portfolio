@@ -23,35 +23,35 @@ function Compétences() {
       <div className="compétence-section">
         <div className="div-skill">
           {" "}
-          <img src={html} alt="" />
+          <img src={html} alt="Html" />
         </div>
         <div className="div-skill">
           {" "}
-          <img src={css} alt="" />
+          <img src={css} alt="CSS" />
         </div>
         <div className="div-skill">
           {" "}
-          <img src={js} alt="" />
+          <img src={js} alt="JS" />
         </div>
         <div className="div-skill">
           {" "}
-          <img src={react} alt="" />
+          <img src={react} alt="React" />
         </div>
         <div className="div-skill">
           {" "}
-          <img src={nodejs} alt="" />
+          <img src={nodejs} alt="nodeJS" />
         </div>
         <div className="div-skill">
           {" "}
-          <img src={sass} alt="" />
+          <img src={sass} alt="Sass" />
         </div>
         <div className="div-skill">
           {" "}
-          <img src={mongoDB} alt="" />
+          <img src={mongoDB} alt="mongoDB" />
         </div>
         <div className="div-skill">
           {" "}
-          <img src={git} alt="" />
+          <img src={git} alt="git" />
         </div>
       </div>
       <div className="skills-section">
@@ -62,23 +62,23 @@ function Compétences() {
       <div className="compétence-section">
         <div className="div-skill">
           {" "}
-          <img src={github} alt="" />
+          <img src={github} alt="Github" />
         </div>
         <div className="div-skill">
           {" "}
-          <img src={chatgpt} alt="" />
+          <img src={chatgpt} alt="chatgpt" />
         </div>
         <div className="div-skill">
           {" "}
-          <img src={vsc} alt="" />
+          <img src={vsc} alt="visual code studio" />
         </div>
         <div className="div-skill">
           {" "}
-          <img src={postman} alt="" />
+          <img src={postman} alt="postman" />
         </div>
         <div className="div-skill">
           {" "}
-          <img src={lighthose} alt="" />
+          <img src={lighthose} alt="lighthose" />
         </div>
       </div>
     </div>

@@ -14,22 +14,26 @@ function Footer() {
           <FontAwesomeIcon
             icon={faGithub}
             style={{ color: "#fafafa", fontSize: "2em" }}
+            title="Github"
           />
         </a>
         <a
           href="https://www.linkedin.com/in/namane-yacine-542398252/"
           target="_blank"
           rel="noopener noreferrer"
+          title="Linkedin"
         >
           <FontAwesomeIcon
             icon={faLinkedin}
             style={{ color: "#fafafa", fontSize: "2em" }}
+            title="Linkedin"
           />
         </a>
         <a href="mailto:yacine.nam@outlook.fr">
           <FontAwesomeIcon
             icon={faEnvelope}
             style={{ color: "#fafafa", fontSize: "2em" }}
+            title="Email"
           />
         </a>
       </div>

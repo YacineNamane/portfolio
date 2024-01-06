@@ -5,9 +5,9 @@ function Home() {
   return (
     <div className="home-section" id="Home">
       <div className="text-en-boucle">
-        <div className="type-container">
+        <h1 className="type-container">
           <Type />
-        </div>
+        </h1>
       </div>
       <div className="img-apropos">
         <FloatingImage />

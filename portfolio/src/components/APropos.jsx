@@ -52,12 +52,14 @@ function APropos() {
             <FontAwesomeIcon
               icon={faGithub}
               style={{ color: "#fafafa", fontSize: "2.6em" }}
+              title="Github"
             />
           </a>
           <a
             href="https://www.linkedin.com/in/namane-yacine-542398252/"
             target="_blank"
             rel="noopener noreferrer"
+            title="Linkedin"
           >
             <FontAwesomeIcon
               icon={faLinkedin}
@@ -68,6 +70,7 @@ function APropos() {
             <FontAwesomeIcon
               icon={faEnvelope}
               style={{ color: "#fafafa", fontSize: "2.6em" }}
+              title="Email"
             />
           </a>
         </div>

@@ -118,7 +118,7 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  animation: floatAnimation 6s ease-in-out infinite; /* Ajustez la durée de l'animation selon vos besoins */
+  animation: floatAnimation 6s ease-in-out infinite; /*la durée de l'animation  */
 }
 
 @keyframes floatAnimation {
@@ -127,9 +127,7 @@ body {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(
-      -15px
-    ); /* Ajustez la distance de flottement selon vos besoins */
+    transform: translateY(-15px);
   }
 }
 
@@ -214,7 +212,7 @@ footer {
 .contact-form input,
 .contact-form textarea,
 .contact-form button {
-  box-sizing: border-box; /* Garde la largeur totale, inclut les bordures et les rembourrages */
+  box-sizing: border-box;
 }
 .mecontacter-section {
   padding-top: 50px;
@@ -317,7 +315,7 @@ footer {
 }
 .projects-container h2 {
   border-top: 3px solid white;
-  padding: 40px;
+  padding: 40px 0px 40px 0px;
 }
 .projects-container span {
   color: #5c6ac4;
@@ -339,7 +337,7 @@ footer {
   align-items: center;
   justify-content: space-between;
   padding: 18px;
-  height: 520px;
+  height: 555px;
   width: 21%;
   box-shadow: 0 4px 10px 2px #5c6ac4;
   border: 3px solid #5c6ac4;
@@ -358,10 +356,10 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 82%;
-  height: 52px;
-  padding: 102px 0px 0px 25px;
-  transition: transform 0.5s ease;
+  width: 100%;
+  height: 65px;
+  padding: 102px 0px 0px 0px;
+  transition: transform 0.8s ease;
 }
 .project-section:hover img {
   transform: scale(1.1);
@@ -402,6 +400,7 @@ footer {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  gap: 40px;
 }
 .skills-container span {
   color: #5c6ac4;
@@ -431,7 +430,7 @@ footer {
   width: 15%;
   margin: 20px;
   transition: all 0.2s ease 0s !important;
-  border-width: 3px; /* Largeur de la bordure */
+  border-width: 3px;
   border-style: solid;
   border-image: linear-gradient(
     to right,
@@ -470,6 +469,9 @@ footer {
   .type-container {
     padding: 0px;
   }
+  .projects p {
+    font-size: 0.9em;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -487,7 +489,7 @@ footer {
   }
   .home-section {
     flex-direction: column;
-    height: 500px;
+    height: 648px;
     padding-top: 290px;
     margin: 0px;
   }
@@ -570,22 +572,28 @@ footer {
   .apropos-section {
     height: auto;
   }
+  .apropos-section p {
+    font-size: 1em;
+  }
+  .img-apropos {
+    padding-bottom: 150px;
+  }
 
   .contact-form {
-    max-width: 600px; /* Limite la largeur du formulaire pour une meilleure lisibilité */
-    margin: 0 auto; /* Centre le formulaire horizontalement */
+    max-width: 600px;
+    margin: 0 auto;
   }
 
   .contact-form input,
   .contact-form textarea {
-    width: 80%; /* Ajuste la largeur à 100% */
+    width: 80%;
   }
 
   .contact-form label {
     width: 100%;
   }
   .contact-form textarea {
-    height: 150px; /* Ajuste la hauteur */
+    height: 150px;
     width: 80%;
   }
   form[name="contact-form-YN"] {

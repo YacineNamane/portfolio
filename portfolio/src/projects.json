@@ -10,7 +10,7 @@
     "id": 2,
     "title": "Mon Vieux Grimmoire",
     "imageSrc": "https://raw.githubusercontent.com/YacineNamane/portfolio/master/portfolio/src/images/vieuxgrimmoire.png",
-    "description": "Développement du Back-end  d'un site de notation de livres ( Mon vieux Grimmoire ) avec NodeJS .",
+    "description": "Développement du Back-end  d'un site de notation de livres ( Mon vieux Grimmoire ) et réalisation sécurisée des opérations CRUD avec NodeJS .",
     "githubLink": "https://github.com/YacineNamane/Mon-Vieux-Grimoire"
   },
   {
@@ -24,7 +24,7 @@
     "id": 4,
     "title": "Nina Carducci",
     "imageSrc": "https://raw.githubusercontent.com/YacineNamane/portfolio/master/portfolio/src/images/portfolio.png",
-    "description": "Débugage et optimisation d'un site de photographe . En s'appuyant sur le rapport de l’audit avant mon intervention , j'ai retravaillé l'accessibilité , la SEO , les perfermances du site ainsi que la résolution de certains bugs liés aux fonctionnalités du site.",
+    "description": "Débugage et optimisation d'un site de photographe. En s'appuyant sur le rapport de l’audit ,j'ai retravaillé l'accessibilité, la SEO, les perfermances du site ainsi que la résolution de certains bugs liés aux fonctionnalités du site.",
     "githubLink": "https://github.com/YacineNamane/Nina-Carducci"
   },
   {

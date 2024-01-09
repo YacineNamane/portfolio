@@ -1,5 +1,4 @@
 import "./App.css";
-import Stars from "./Effects/Stars";
 import Banner from "./components/Banner";
 import MobileDropdown from "./components/BannerMobile";
 import Home from "./components/Home";
@@ -13,7 +12,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Stars />
         <Banner />
         <MobileDropdown />
         <Home />

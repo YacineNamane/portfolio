@@ -5,7 +5,7 @@ body {
   background-image: url("./images/Moon.svg");
   background-size: cover;
   background-position: center;
-  height: 300px;
+  height: 500px;
   color: white;
 }
 
@@ -134,7 +134,7 @@ body {
 /* Footer */
 footer {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   flex-direction: column;
   height: 200px;
@@ -177,6 +177,10 @@ footer {
   gap: 100px;
 }
 .apropos-section p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   font-size: 1.3em;
 }
 .apropos-section h2 {
@@ -315,7 +319,7 @@ footer {
 }
 .projects-container h2 {
   border-top: 3px solid white;
-  padding: 40px 0px 40px 0px;
+  padding: 15px 0px 40px 0px;
 }
 .projects-container span {
   color: #5c6ac4;
@@ -472,6 +476,10 @@ footer {
   .projects p {
     font-size: 0.9em;
   }
+  .project-section {
+    height: 450px;
+    width: 35%;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -602,5 +610,8 @@ footer {
   .contact-form button {
     margin-left: 13%;
     font-size: 0.65em;
+  }
+  .mail-contact h2 {
+    font-size: 1.2em;
   }
 }

@@ -31,7 +31,7 @@ function APropos() {
             Vous pouvez si vous le souhaitez télécharger mon CV en format PDF ,
             pour en savoir plus sur moi{" "}
             <a
-              href="https://github.com/YacineNamane/portfolio/raw/master/portfolio/src/images/CURRICULUM%20VITAE%202022.pdf"
+              href="https://github.com/YacineNamane/portfolio/raw/master/portfolio/src/images/Yacine-Namane-CV%20.pdf"
               target="_blank"
               rel="noopener noreferrer"
               download="Yacine-Namane-CV-Dev-Web.pdf"
